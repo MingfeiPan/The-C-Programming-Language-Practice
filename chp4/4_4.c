@@ -17,8 +17,8 @@ void copy(){
 void swap(){
 	double temp1 = pop();
 	double temp2 = pop();
-	push(temp2);
 	push(temp1);
+	push(temp2);
 }
 
 void clear(){
